@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="controle.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+        <fieldset class="fi">
+            <legend>location robe:</legend>
+            <label for="">telephone</label> <input type="text" name="num" id="num"><br>
+            <label for="">code robe</label> 
+            <select name="liste" id="liste" >
+                <option value="">code robe</option>
+                <option value="">r001</option>
+                <option value="">r002</option>
+                <option value="">r003</option>
+                <option value="">r004</option>
+                <option value="">r005</option>
+            </select><br>
+            <label for="">date location</label> <input type="date" name="" id=""><br>
+            <label for="">nombre de jours</label><input type="radio" name="jour" id="j1">1jour<input type="radio" name="jour" id="j2">2 jours<input type="radio" name="jour" id="j3">3jours <br>
+            <label for="">email:</label><input type="text" id="email"><br>
+            <input type="reset" value="annuler">
+            <input type="submit" value="louer" onclick="verif()">
+        </fieldset>
+    </form>
+</body>
+</html>
